@@ -202,13 +202,17 @@
 				TargetAttributes = {
 					F4F8290B1D80E29F005BC254 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A2QDNAF483;
+						LastSwiftMigration = 0830;
 					};
 					F4F8291F1D80E29F005BC254 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = F4F8290B1D80E29F005BC254;
 					};
 					F4F8292A1D80E29F005BC254 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = F4F8290B1D80E29F005BC254;
 					};
 				};
@@ -413,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2QDNAF483;
 				INFOPLIST_FILE = "i-rw-table/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-table";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -424,10 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2QDNAF483;
 				INFOPLIST_FILE = "i-rw-table/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-table";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -439,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-tableTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/i-rw-table.app/i-rw-table";
 			};
 			name = Debug;
@@ -451,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-tableTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/i-rw-table.app/i-rw-table";
 			};
 			name = Release;
@@ -462,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-tableUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "i-rw-table";
 			};
 			name = Debug;
@@ -473,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.orjuela.andres.com.i-rw-tableUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "i-rw-table";
 			};
 			name = Release;
@@ -496,6 +510,7 @@
 				F4F829361D80E29F005BC254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F829371D80E29F005BC254 /* Build configuration list for PBXNativeTarget "i-rw-tableTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				F4F829391D80E29F005BC254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F8293A1D80E29F005BC254 /* Build configuration list for PBXNativeTarget "i-rw-tableUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				F4F8293C1D80E29F005BC254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

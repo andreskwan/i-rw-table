@@ -22,7 +22,7 @@
 
 import UIKit
 
-class IconSet : Equatable {
+struct IconSet {
   
   let name: String
   var icons: [Icon]
@@ -68,12 +68,12 @@ class IconSet : Equatable {
   
 }
 
-
-func ==(lhs: IconSet, rhs: IconSet) -> Bool {
-  var isEqual = false
-  if (lhs.name == rhs.name && lhs.icons.count == rhs.icons.count) {
-    isEqual = true
-  } 
-  return isEqual
+extension IconSet : Equatable {
+    func ==(lhs: IconSet, rhs: IconSet) -> Bool {
+      var isEqual = false
+      if (lhs.name == rhs.name && lhs.icons.count == rhs.icons.count) {
+        isEqual = true
+      } 
+      return isEqual
+    }
 }
-
